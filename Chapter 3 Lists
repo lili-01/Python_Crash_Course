@@ -1,0 +1,76 @@
+3-1 Names:
+# Store the names of a few of your friends in a list called names. Print each person's name by accessing each element in the list one at a time. 
+
+  names= ['Carmen', 'Yuli', 'Mane']
+  print (names[0])
+  print (names[1])
+  print (names[2])
+
+3-2 Greetings: 
+# Start with the list you used in Exercise 3-1, but instead of just printing each person's name, print a message to them. 
+# The text of each message should be the same, but each message should be personalized with the person's name.
+
+  names= ['Carmen', 'Yuli', 'Mane']
+  message = f"Hello {names[0]}, how are you doing today? Let's get coffee?"
+  print(message)
+  message = f"Hello {names[1]}, how are you doing today? Let's get coffee?"
+  print(message)
+  message = f"Hello {names[2]}, how are you doing today? Let's get coffee?"
+  print(message)
+
+3-3 Your Own List:
+#Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores serveral examples. 
+# Use your list to print a series of statements about these items, such as "I would like to own a Honda motorcycle" 
+  dream_car= ['Porsche','Mercedes','Lexus']
+  statement = f"I would like to to own a {dream_car[0]}."
+  print(statement)
+  statement = f"I would like to to own a {dream_car[1]}."
+  print(statement)
+  statement = f"I would like to to own a {dream_car[2]}."
+  print(statement)
+
+3-4 Guest List:
+#If you could invite anyone, living or deceased, to dinner, who would you invite? Make a list that includes at least three people you'd like to invite to dinner. 
+#Then use your list to print a message to each person, inviting them to dinner.
+  invite_list= ['Yuli','Carmen', 'Martin']
+  print(f"For {invite_list[0]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[1]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[2]}; You are cordially invited to my dinner party")
+
+3-5 Changing Guest List:
+#You just heard that one of your guests can't make the dinner, so you need to send out a new set of invitations. You'll have to think of someone else to invite.
+
+#Start with your program from Exercise 3-4. Add a print() call at the end of your program, stating the name of the guest who can't make it.
+#Modify your list, replacing the name of the guest who can't make it with the name of the new person you are inviting.
+#Print a second set of invitation messages, one for each person who is still in your list.
+  invite_list= ['Yuli','Carmen', 'Martin']
+  print(f"Unfortunately {invite_list[0]}, will not be making it to dinner")
+  invite_list[0]='Bubby'
+  print(f"For {invite_list[0]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[1]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[2]}; You are cordially invited to my dinner party")
+
+3-6 More Guests:
+#You just found a bigger dinner table, so now more space is available. Think of three more guests to invite to dinner.
+
+#Start with your program from Exercise 3-4 or Exercise 3-5. Add a print() call to the end of your program, informing people that you found a bigger dinner table.
+#Use insert() to add one new guest to the beginning of your list.
+#Use insert() to add one new guest to the middle of your list.
+#Use append() to add one new guest to the end of your list. Print a new set of invitation messages, one for each person in your list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
