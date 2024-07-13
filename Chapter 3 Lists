@@ -159,8 +159,71 @@ print(locations)
 locations.sort(reverse=True)
 print(locations)
 
+3-9 Dinner Guest:
+#Working with one of the programs from Exercises 3-4 thru 3-7 (Pages 41-41), use len() to print a message indicating the number of people you're inviting to dinner.
+ invite_list= ['Yuli','Carmen', 'Martin']
+  print(f"For {invite_list[0]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[1]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[2]}; You are cordially invited to my dinner party")
+  print(f"Unfortunately {invite_list[0]}, will not be making it to dinner")
+
+  invite_list[0]='Bubby'
+  print(f"For {invite_list[0]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[1]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[2]}; You are cordially invited to my dinner party")
+
+  print("\n We found a a bigger table!")
+  invite_list.insert(0,"Mane")
+  invite_list.insert(2,"Martin JR")
+  invite_list.append("Buddy")
+  print(f"For {invite_list[0]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[1]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[2]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[3]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[4]}; You are cordially invited to my dinner party")
+  print(f"For {invite_list[5]}; You are cordially invited to my dinner party")
+
+print(len(invite_list))
 
 
+
+3-10 Every Function:
+Think of things you could store in a list. For example you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. 
+#Write a program that creates a list containing these items and then uses each function introduced in this chapter at least once. 
+
+cites=['Bellflower','Norwalk','Cerritos','Paramount']
+print(cites)
+#modifying elements in a list
+cites[0]='Downey'
+print(cites)
+# adding elements in a list
+cites.append('Bellflower')
+print(cites)
+#inserting elements into a list
+cites.insert(0,'South Gate')
+print(cites)
+#removing element using del
+del cites[0]
+print(cites)
+#using pop method to remove
+popped_city=cites.pop()
+print(cites)
+print(popped_city)
+#removing by value
+cites.remove('Norwalk')
+print(cites)
+#using sorted method
+print("here is original list")
+print(cites)
+print("here is sorted list")
+print(sorted(cites))
+#using the reverse method
+print("Here is the list reversed")
+cites.reverse()
+print(cites)
+
+#Length of the list
+print(f"length of list: {len(cites)}")
 
 
 
