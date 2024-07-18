@@ -60,3 +60,28 @@ for value in range(1,21):
 ## Output
 ![image](https://github.com/user-attachments/assets/3daf452d-8ce6-4054-8a38-c9e8b25e05e3)
 
+# 4-4: One Million:
+## Make a list of the numbers from one to one million, and then use a for loop to print the numbers (if the output is taking too long, stop it by pressing CRTL-C or by closing the output window.)
+## Code:
+```python
+for value in range(1,1000001):
+    print(value)
+```
+## Output:
+![image](https://github.com/user-attachments/assets/72e2bfa2-36f1-40a0-9b8a-212c07b98f7d)
+
+
+
+# 4-5: Summing a million
+## Make a list of the numbers from one to one million, and then use min() and max() to make sure your list actually starts at one and ends at one million. Also, use the sum() function to see how quickly Python can add a million numbers.
+## Code:
+``` python
+numbers = list(range(1, 1000001))
+
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+```
+## Output:
+![image](https://github.com/user-attachments/assets/d231da71-88f1-4530-8162-75fbdaa430e0)
+
