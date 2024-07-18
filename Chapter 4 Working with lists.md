@@ -20,7 +20,7 @@ for pizza in pizzas:
 
 print("I'm obssesed with pizza!")
 
-```
+
 
 # 4-2: Animals 🐶
 ## Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a FOR loop to print out the name of each animal. 
