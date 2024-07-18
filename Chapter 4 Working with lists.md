@@ -20,6 +20,9 @@ for pizza in pizzas:
 
 print("I'm obssesed with pizza!")
 ```
+## Output: 
+![image](https://github.com/user-attachments/assets/99b2139a-cba4-4f15-a87e-8fb778c4c761)
+
 
 
 # 4-2: Animals 🐶
@@ -41,6 +44,7 @@ print("Any of these animals would make a cute pet!")
 ```
 ## Output: 
 
-![image](https://github.com/user-attachments/assets/2dc41a55-f732-4c6f-9c50-b15e0b826a13)
+![image](https://github.com/user-attachments/assets/d6b35436-f24f-4311-a02c-3911c72e80a3)
+
 
 
