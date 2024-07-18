@@ -39,5 +39,8 @@ print()
 print("Any of these animals would make a cute pet!")   
 
 ```
+## Output: 
+
+![image](https://github.com/user-attachments/assets/2dc41a55-f732-4c6f-9c50-b15e0b826a13)
 
 
