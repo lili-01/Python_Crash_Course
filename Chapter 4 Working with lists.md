@@ -27,12 +27,15 @@ print("I'm obssesed with pizza!")
 * Modify your program to print a statement about each animal such as  *A dog would make a great pet*.
 * Add a line at the end of your program stating what these animals have in common. You could print a sentence such as *Any of these animals would make a great pet*!
 ## Code:
-```
+```python
+#created list called animals that store different animal elements
 animals=['dog','cat','bunny']
+# in this for loop we are looping thru each element and printing out a statement
 for animal in animals:
     print(f"A {animal} would make a great pet!")
-print("\n")
-
+#Here we create a new line 
+print()
+#this outside the FOR loop in which it displays a statement
 print("Any of these animals would make a cute pet!")   
 
 ```
