@@ -19,7 +19,7 @@ for pizza in pizzas:
     print(f"I like {pizza} pizza!")
 
 print("I'm obssesed with pizza!")
-
+```
 
 
 # 4-2: Animals 🐶
