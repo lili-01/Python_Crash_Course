@@ -46,5 +46,17 @@ print("Any of these animals would make a cute pet!")
 
 ![image](https://github.com/user-attachments/assets/d6b35436-f24f-4311-a02c-3911c72e80a3)
 
+# 4-3 Counting to Twenty:
+## Use a for loop to print the numbers from 1 to 20, inclusive.
 
+## Code:
+
+```python
+# using a for loop and range to print out numbers from 1-20
+for value in range(1,21):
+    print(value)
+
+```
+## Output
+![image](https://github.com/user-attachments/assets/3daf452d-8ce6-4054-8a38-c9e8b25e05e3)
 
