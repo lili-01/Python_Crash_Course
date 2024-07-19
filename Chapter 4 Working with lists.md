@@ -8,6 +8,7 @@ In this chapter we learned about looping. Looping allows you to take the same ac
 
 ## Code:
 ```python
+#creating a list called pizzas
 pizzas=['Hawaiian', 'Margherita','Mushrooms']
 
 #print out all pizza names
@@ -84,4 +85,18 @@ print(sum(numbers))
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/d231da71-88f1-4530-8162-75fbdaa430e0)
+
+# 4-6: Odd Numbers
+## Use the third argument of the range() function to make a list of the odd numbers from 1 to 20. Use a for loop to print each number.
+## Code:
+```python
+odd_numbers = []
+for value in range(1, 21, 2):
+    odd_numbers.append(value)
+
+print(f"List of odd numbers: {odd_numbers}")
+
+```
+## Output:
+![image](https://github.com/user-attachments/assets/0c8552c4-f6b4-463a-b6ed-2986c1072b94)
 
